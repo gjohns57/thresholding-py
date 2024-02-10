@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "thresholding-py"
+version = "0.0.1"
+authors = [
+  { name="Gabriel Johnson", email="gjohns57@tennesse.edu" },
+  { name="Levi Hochstetler", email="lhochste@tennessee.edu"}
+]
+description = "Thresholding Package for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/gjohns57/thresholding-py"
+Issues = "https://github.com/gjohns57/thresholding-py/issues"
